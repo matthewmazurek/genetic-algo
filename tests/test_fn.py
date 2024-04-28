@@ -6,7 +6,7 @@ import pytest
 from fn import (fitness_func, fitness_sharing, random_mutation,
                 single_point_crossover, tournament_selection)
 from ga import GeneticAlgorithm
-from pop_init import PopulationGenerator
+from population import PopulationGenerator
 
 
 def Mock_GA() -> GeneticAlgorithm:

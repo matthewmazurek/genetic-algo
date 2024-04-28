@@ -19,7 +19,7 @@ This project implements a robust and adaptable Genetic Algorithm (GA) in Python,
 
 Clone this repository to your local machine using:
 ```
-git clone https://github.com/matthewmazurek/genetic-algorithm.git
+git clone https://github.com/matthewmazurek/genetic-algo.git
 ```
 
 ## Usage
