@@ -2,11 +2,11 @@ from typing import TYPE_CHECKING, Any, List, Protocol, Tuple
 
 import numpy as np
 
-from custom_types import T_Genome, T_Population
+from .custom_types import T_Genome, T_Population
 
 if TYPE_CHECKING:
-    from ga import GeneticAlgorithm
-    from population import PopulationGenerator
+    from .ga import GeneticAlgorithm
+    from .population import PopulationGenerator
 
 
 class Func(Protocol):

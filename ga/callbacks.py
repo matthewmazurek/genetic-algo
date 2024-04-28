@@ -5,7 +5,7 @@ from typing import TYPE_CHECKING, Any, Dict, List
 import numpy as np
 
 if TYPE_CHECKING:
-    from ga import GeneticAlgorithm
+    from .ga import GeneticAlgorithm
 
 
 class CallBack:

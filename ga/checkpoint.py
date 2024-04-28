@@ -3,8 +3,8 @@ import os
 import pickle
 from dataclasses import dataclass
 
-from callbacks import CallBack, Logger
-from ga import GeneticAlgorithm
+from .callbacks import CallBack, Logger
+from .ga import GeneticAlgorithm
 
 
 @dataclass

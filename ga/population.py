@@ -2,7 +2,7 @@ from typing import Any, Protocol
 
 import numpy as np
 
-from custom_types import T_Population
+from .custom_types import T_Population
 
 
 class PopulationGenerator(Protocol):

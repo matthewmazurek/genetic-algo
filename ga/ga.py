@@ -5,11 +5,11 @@ from typing import (TYPE_CHECKING, Any, Callable, Dict, List, Optional,
 
 import numpy as np
 
-from callbacks import CallBack
-from custom_types import T_Population
+from .callbacks import CallBack
+from .custom_types import T_Population
 
 if TYPE_CHECKING:
-    from fn import Func
+    from .fn import Func
 
 
 @dataclass
